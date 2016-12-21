@@ -1,2 +1,48 @@
-# Re-SpaceTools
-A collection of sound reactive visual tools
+# Re-Space Tools
+## A collection of sound reactive visual tools
+
+It would be great to collect and create collaboratively different tools that makes sound reactive VJing reacher and easear. It could be also used by non-geeks to re-space the environment. So, tools should stay simple in installation and control. To my regret, there are some problems with the export of Processing sketches as standalone Java apps (developer registration and co.). Therefore the best option right now is to download the Processing Editor and start the programs from it. You will also need to install a couple of dependent libraries. But in Processing all that kind of stuff is really easy.
+
+There will be two types of projects: 
+- Processing so it could work offline.
+- p5.js, so everything could run in the browser
+
+
+TODO:
+- add spout (syphon)
+- if everything goes right, the most loved stuff will be then implemented with OpenFrameworks.
+
+
+## Processing
+
+### Sound Analyzer
+
+The first main element is the [sound analyzer](https://github.com/kokashking/Re-SpaceTools/tree/master/processing/soundTriggerToOscSender) that triggers OSC signals to other sketches or VJ-software.
+
+TODOs:
+- automatic sound level adjustment
+- automatic beat pause threshold
+
+
+### Moving Lines 
+
+This [moving lines](https://github.com/kokashking/Re-SpaceTools/tree/master/processing/movingLines) sketch fits best for the highlighting of edges (object or corner edges of a room). You simply draw with the mouse over the edges. If you drag the mouse, drastically more points are created and therefore can cause slowdown. For the better performance on the weak hardware you should better draw by creating single points with a single mousepress. On Beat (Kick) signal from the SoundAnalyzer the lines are getting noisy :)  
+
+right now you can save only one drawing, but you can trick it by renaming
+
+Shortcuts:
+- s : save the drawing
+- l : load the drawing
+
+- 0 : noisy vibration of lines on kick (sound reactive)
+- 1 : sequential fadein/out of the edges
+
+
+TODOs:
+- add other edge animations (glow, trim etc.)
+
+### 
+
+## p5.js
+
+
