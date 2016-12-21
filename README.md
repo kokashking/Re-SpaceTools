@@ -6,7 +6,7 @@ It would be great to collect and create collaboratively different tools that mak
 
 To my regret, there are some problems with the export of Processing sketches as standalone Java apps (developer registration and co.). Therefore the best option right now is to download the Processing Editor and start the programs from it. You will also need to install a couple of dependent libraries. But in Processing all that kind of stuff is really easy.
 
-At first there is only Processing projects, because prototypes.. and easypiesy :) 
+At first there is only Processing projects, because prototypes.. and easypeesy :) 
 
 
 TODO:
