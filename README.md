@@ -5,12 +5,14 @@ It would be great to collect and create collaboratively different tools that mak
 
 There will be two types of projects: 
 - Processing so it could work offline.
-- p5.js, so everything could run in the browser
+
 
 
 TODO:
+- p5.js, so everything could run in the browser
 - add spout (syphon)
 - if everything goes right, the most loved stuff will be then implemented with OpenFrameworks.
+
 
 
 ## Processing
@@ -18,6 +20,14 @@ TODO:
 ### Sound Analyzer
 
 The first main element is the [sound analyzer](https://github.com/kokashking/Re-SpaceTools/tree/master/processing/soundTriggerToOscSender) that triggers OSC signals to other sketches or VJ-software.
+
+import libs:
+
+- osc
+- minim
+- controlP5
+- ani
+
 
 TODOs:
 - automatic sound level adjustment
@@ -27,6 +37,12 @@ TODOs:
 ### Moving Lines 
 
 This [moving lines](https://github.com/kokashking/Re-SpaceTools/tree/master/processing/movingLines) sketch fits best for the highlighting of edges (object or corner edges of a room). You simply draw with the mouse over the edges. If you drag the mouse, drastically more points are created and therefore can cause slowdown. For the better performance on the weak hardware you should better draw by creating single points with a single mousepress. On Beat (Kick) signal from the SoundAnalyzer the lines are getting noisy :)  
+
+import libs:
+
+- osc
+- ani
+- geomerative
 
 right now you can save only one drawing, but you can trick it by renaming
 
@@ -41,8 +57,5 @@ Shortcuts:
 TODOs:
 - add other edge animations (glow, trim etc.)
 
-### 
-
-## p5.js
 
 
