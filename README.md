@@ -19,7 +19,7 @@ TODO:
 
 ### Sound Analyzer
 
-The first main element is the [sound analyzer](https://github.com/kokashking/Re-SpaceTools/tree/master/processing/soundTriggerToOscSender) that triggers OSC signals to other sketches or VJ-software.
+The first main element is the [sound analyzer](https://github.com/kokashking/Re-SpaceTools/tree/master/soundAnalyzer) that triggers OSC signals to other sketches or VJ-software.
 
 import libs:
 
@@ -36,7 +36,7 @@ TODOs:
 
 ### Moving Lines 
 
-This [moving lines](https://github.com/kokashking/Re-SpaceTools/tree/master/processing/movingLines) sketch fits best for the highlighting of edges (object or corner edges of a room). You simply draw with the mouse over the edges. If you drag the mouse, drastically more points are created and therefore can cause slowdown. For the better performance on the weak hardware you should better draw by creating single points with a single mousepress. On Beat (Kick) signal from the SoundAnalyzer the lines are getting noisy :)  
+This [moving lines](https://github.com/kokashking/Re-SpaceTools/tree/master/movingLines) sketch fits best for the highlighting of edges (object or corner edges of a room). You simply draw with the mouse over the edges. If you drag the mouse, drastically more points are created and therefore can cause slowdown. For the better performance on the weak hardware you should better draw by creating single points with a single mousepress. On Beat (Kick) signal from the SoundAnalyzer the lines are getting noisy :)  
 
 import libs:
 
