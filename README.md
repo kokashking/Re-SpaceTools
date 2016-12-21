@@ -1,18 +1,18 @@
 # Re-Space Tools
 ## A collection of sound reactive visual tools
 
-It would be great to collect and create collaboratively different tools that makes sound reactive VJing reacher and easear. It could be also used by non-geeks to re-space the environment. So, tools should stay simple in installation and control. To my regret, there are some problems with the export of Processing sketches as standalone Java apps (developer registration and co.). Therefore the best option right now is to download the Processing Editor and start the programs from it. You will also need to install a couple of dependent libraries. But in Processing all that kind of stuff is really easy.
+It would be great to collect and create collaboratively different tools that makes sound reactive VJing reacher and easear. It could be also used by non-geeks to re-space the environment. So, tools should stay simple in installation and control. 
 
-There will be two types of projects: 
-- Processing so it could work offline.
 
+To my regret, there are some problems with the export of Processing sketches as standalone Java apps (developer registration and co.). Therefore the best option right now is to download the Processing Editor and start the programs from it. You will also need to install a couple of dependent libraries. But in Processing all that kind of stuff is really easy.
+
+At first there is only Processing projects, because prototypes.. and easypiesy :) 
 
 
 TODO:
 - p5.js, so everything could run in the browser
 - add spout (syphon)
 - if everything goes right, the most loved stuff will be then implemented with OpenFrameworks.
-
 
 
 ## Processing
