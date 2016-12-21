@@ -46,13 +46,6 @@ import libs:
 
 right now you can save only one drawing, but you can trick it by renaming
 
-Shortcuts:
-- s : save the drawing
-- l : load the drawing
-
-- 0 : noisy vibration of lines on kick (sound reactive)
-- 1 : sequential fadein/out of the edges
-
 
 TODOs:
 - add other edge animations (glow, trim etc.)
