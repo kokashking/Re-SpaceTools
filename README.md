@@ -9,14 +9,6 @@ To my regret, there are some problems with the export of Processing sketches as 
 At first there is only Processing projects, because prototypes.. and easypeesy :) 
 
 
-TODO:
-- p5.js, so everything could run in the browser
-- add spout (syphon)
-- if everything goes right, the most loved stuff will be then implemented with OpenFrameworks.
-
-
-## Processing
-
 ### Sound Analyzer
 
 The first main element is the [sound analyzer](https://github.com/kokashking/Re-SpaceTools/tree/master/soundAnalyzer) that triggers OSC signals to other sketches or VJ-software.
@@ -49,6 +41,6 @@ right now you can save only one drawing, but you can trick it by renaming
 
 TODOs:
 - add other edge animations (glow, trim etc.)
-
-
-
+- p5.js, so everything could run in the browser
+- add spout (syphon)
+- if everything goes right, the most loved stuff will be then implemented with OpenFrameworks.
