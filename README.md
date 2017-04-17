@@ -21,10 +21,6 @@ import libs:
 - ani
 
 
-TODOs:
-- automatic sound level adjustment
-- automatic beat pause threshold
-
 
 ### Moving Lines 
 
@@ -39,8 +35,3 @@ import libs:
 right now you can save only one drawing, but you can trick it by renaming
 
 
-TODOs:
-- add other edge animations (glow, trim etc.)
-- p5.js, so everything could run in the browser
-- add spout (syphon)
-- if everything goes right, the most loved stuff will be then implemented with OpenFrameworks.
