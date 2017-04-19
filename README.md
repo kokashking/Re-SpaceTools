@@ -3,7 +3,7 @@
 
 
 
-The best option for right now is to download the Processing Editor and start the programs from it. You will also need to install a couple of dependent libraries. But in Processing all that kind of stuff is really easy... check the tutorial video above.
+The best option for right now is to download the [Processing Editor](https://processing.org/download/) and start the programs from it. You will also need to install a couple of dependent libraries. But in Processing all that kind of stuff is really easy... check the tutorial video above.
 
 
 
