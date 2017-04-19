@@ -1,4 +1,4 @@
-static final int DISPLAY_NR = 1; 
+static final int DISPLAY_NR = 2; 
 
 import de.looksgood.ani.*;
 import de.looksgood.ani.easing.*;
@@ -14,8 +14,8 @@ NetAddress myRemoteLocation;
 
 
 void settings() {
-  //fullScreen(P3D, DISPLAY_NR);
-  size(1500, 1000, P3D);
+  fullScreen(P3D, DISPLAY_NR);
+  //size(1500, 1000, P3D);
 }
 
 void setup() {
