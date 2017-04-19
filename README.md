@@ -24,6 +24,17 @@ import libs:
 
 This [Kinetic Edges](https://github.com/kokashking/Re-SpaceTools/tree/master/KineticEdges) sketch fits best for the highlighting of edges (objects, corner etc.) or simple drawings. On Beat (Kick) signal from the SoundAnalyzer the lines are getting noisy :)  
 
+Controls:
+ 
+ - right mouse button - new object
+ - left mouse button - new point in the object
+
+To switch the output change the variable DISPLAY_NR
+
+```java
+static final int DISPLAY_NR = 2; 
+```
+
 import libs:
 
 - osc
