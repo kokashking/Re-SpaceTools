@@ -3,7 +3,7 @@
 
 
 
-To my regret, there are some problems with the export of Processing sketches as standalone Java apps for MacOs (developer registration and co.). Therefore the best option for MacOs right now is to download the Processing Editor and start the programs from it. You will also need to install a couple of dependent libraries. But in Processing all that kind of stuff is really easy.
+To my regret, there are some problems with the export of Processing sketches as standalone Java apps for MacOs (developer registration and co.). Therefore the best option right now is to download the Processing Editor and start the programs from it. You will also need to install a couple of dependent libraries. But in Processing all that kind of stuff is really easy.
 
 
 
