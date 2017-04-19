@@ -50,4 +50,4 @@ right now you can save only one drawing, but you can trick it by renaming
 
 ## Licence
 
-ofxPiMapper is distributed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License). See the [LICENSE](https://github.com/kokashking/Re-SpaceTools/blob/master/license.md) file for further details.
+Re-SpaceTools are distributed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License). See the [LICENSE](https://github.com/kokashking/Re-SpaceTools/blob/master/license.md) file for further details.
