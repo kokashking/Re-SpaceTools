@@ -29,7 +29,7 @@ Controls:
  - right mouse button - new object
  - left mouse button - new point in the object
 
-To switch the output change the variable DISPLAY_NR
+To switch the output channel change the variable DISPLAY_NR
 
 ```java
 static final int DISPLAY_NR = 2; 
