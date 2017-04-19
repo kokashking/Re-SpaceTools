@@ -48,4 +48,6 @@ right now you can save only one drawing, but you can trick it by renaming
 
 [![Tutorial](https://img.youtube.com/vi/W8wTx6D30so/0.jpg)](https://www.youtube.com/watch?v=W8wTx6D30so)
 
+## Licence
 
+ofxPiMapper is distributed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License). See the [LICENSE](https://github.com/kokashking/Re-SpaceTools/blob/master/license.md) file for further details.
