@@ -20,9 +20,9 @@ import libs:
 
 
 
-### Moving Lines 
+### Kinetic Edges
 
-This [moving lines](https://github.com/kokashking/Re-SpaceTools/tree/master/movingLines) sketch fits best for the highlighting of edges (object or corner edges of a room). You simply draw with the mouse over the edges. If you drag the mouse, drastically more points are created and therefore can cause slowdown. For the better performance on the weak hardware you should better draw by creating single points with a single mousepress. On Beat (Kick) signal from the SoundAnalyzer the lines are getting noisy :)  
+This [Kinetic Edges](https://github.com/kokashking/Re-SpaceTools/tree/master/KineticEdges) sketch fits best for the highlighting of edges (objects, corner etc.) or simple drawings. On Beat (Kick) signal from the SoundAnalyzer the lines are getting noisy :)  
 
 import libs:
 
