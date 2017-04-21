@@ -1,10 +1,13 @@
 //////VARS
 
+//rec
+boolean record = false; 
+
 //polar cmd vars
 double cmdAngle = 0;
 double cmdRadius = 0;
 
-CornerPinSurface surface;
+//CornerPinSurface surface;
 PGraphics glblOffscreen;
 
 PGraphics pgLines;
@@ -279,7 +282,7 @@ class RsObject {
   PVector menuPoint;
   RContour rContour;
   RPoint bounds[];   // from left up clockwise 
-  CornerPinSurface surface;
+ // CornerPinSurface surface;
   PGraphics offscreen;
   int w, h;
   PImage mask;

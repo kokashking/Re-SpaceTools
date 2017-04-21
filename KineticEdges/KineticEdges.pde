@@ -1,12 +1,11 @@
-static final int DISPLAY_NR = 2; 
+static final int DISPLAY_NR = 0; 
+boolean fullscreen = false;
 
 import de.looksgood.ani.*;
 import de.looksgood.ani.easing.*;
 import oscP5.*;
 import netP5.*;
 import geomerative.*;
-import deadpixel.keystone.*;
-import gab.opencv.*;
 
 
 OscP5 oscP5;
@@ -14,8 +13,11 @@ NetAddress myRemoteLocation;
 
 
 void settings() {
-  fullScreen(P3D, DISPLAY_NR);
-  //size(1500, 1000, P3D);
+  //fullScreen(P3D, DISPLAY_NR);
+  if (fullscreen)
+    fullScreen(P3D, DISPLAY_NR);
+  else
+    size(1080, 1080, P3D);
 }
 
 void setup() {
@@ -38,8 +40,6 @@ void setup() {
 
   pgLines = createGraphics(width, height);
   pgShaders = createGraphics(width, height);
-
-
 }
 
 
@@ -75,7 +75,9 @@ void draw() {
     break;
   }
 
-  
+  if (record) {
+    saveFrame("kinetecDrawing-########.png");
+  }
   //fill(255);
   //text(frameRate, 10, 10);
 }

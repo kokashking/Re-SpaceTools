@@ -74,8 +74,6 @@ void mousePressed() {
 
 
 void mouseReleased() {
-  
-
 }
 
 int value = 0;
@@ -85,8 +83,6 @@ PVector rightMouseEndP = new PVector(0, 0);
 
 void mouseDragged() 
 {
-
-  
 }
 
 
@@ -123,6 +119,8 @@ void keyPressed() {
     mode = 1;
   } else if (key == 'f') {
     rescan = true;
+  } else if (key == 'r') {
+    record = !record;
   }
 }
 
