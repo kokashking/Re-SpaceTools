@@ -5,18 +5,18 @@
 
 The best option for right now is to download the [Processing Editor](https://processing.org/download/) and start the programs from it. You will also need to install a couple of dependent libraries. But in Processing all that kind of stuff is really easy... check the tutorial video above.
 
-
-
-### Sound Analyzer
-
-The first main element is the [sound analyzer](https://github.com/kokashking/Re-SpaceTools/tree/master/soundAnalyzer) that triggers OSC signals to other sketches or VJ-software.
-
 import libs:
 
 - osc
 - minim
 - controlP5
 - ani
+- geomerative
+
+
+### Sound Analyzer
+
+The first main element is the [sound analyzer](https://github.com/kokashking/Re-SpaceTools/tree/master/soundAnalyzer) that triggers OSC signals to other sketches or VJ-software.
 
 
 
@@ -35,11 +35,6 @@ To switch the output channel change the variable DISPLAY_NR
 static final int DISPLAY_NR = 2; 
 ```
 
-import libs:
-
-- osc
-- ani
-- geomerative
 
 right now you can save only one drawing, but you can trick it by renaming
 
