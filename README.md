@@ -29,10 +29,11 @@ Controls:
  - right mouse button - new object
  - left mouse button - new point in the object
 
-To switch the output channel change the variable DISPLAY_NR
+To switch the output channel and fullscreen mode change the following lines in the KineticEdges tab: 
 
 ```java
 static final int DISPLAY_NR = 2; 
+boolean fullscreen = false;
 ```
 
 
