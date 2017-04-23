@@ -1,4 +1,4 @@
-Re-SpaceTools are distributed under the MIT License. This gives everyone the freedoms to use ofxPiMapper in any context: commercial or non-commercial, public or private, open or closed source.
+Re-SpaceTools are distributed under the MIT License. This gives everyone the freedoms to use Re-SpaceTools in any context: commercial or non-commercial, public or private, open or closed source.
 
 Copyright (c) 2017, Ivan Golod and Contributors
 
