@@ -49,6 +49,6 @@ right now you can save only one drawing, but you can trick it by renaming
 
 [![Tutorial](https://img.youtube.com/vi/EN5cbokLIaw/0.jpg)](https://www.youtube.com/watch?v=EN5cbokLIaw)
 
-## Licence
+## License
 
 Re-SpaceTools are distributed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License). See the [LICENSE](https://github.com/kokashking/Re-SpaceTools/blob/master/license.md) file for further details.
