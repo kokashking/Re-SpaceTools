@@ -87,41 +87,41 @@ class ControlFrame extends PApplet {
       .setValue(0.2)
       ;
 
-/*
+    /*
     cp5.addSlider("Blink Frame Pause")
-      .plugTo(parent, "blinkFramePauseBetweenEdgeFade")
-      .setPosition(80, 70)
-      .setRange(0, 4)
-      .setSize(180, 9) 
-      .setValue(0.1)
-      ;
-
-
-    cp5.addSlider("Edge Random")
-      .plugTo(parent, "edgeRandCoef")
-      .setPosition(80, 80)
-      .setRange(1, 5)
-      .setSize(180, 9)
-      .setValue(2)
-      ;
-
-
-    cp5.addSlider("Edge Blink Duration")
-      .plugTo(parent, "edgeBlinkDuration")
-      .setPosition(80, 90)
-      .setRange(0, 4)
-      .setSize(180, 9)
-      .setValue(0.05)
-      ;
-
-    cp5.addSlider("Overall transparency")
-      .plugTo(parent, "overallTransp")
-      .setPosition(80, 100)
-      .setRange(0, 255)
-      .setSize(180, 9)
-      .setValue(255)
-      ;
-*/
+     .plugTo(parent, "blinkFramePauseBetweenEdgeFade")
+     .setPosition(80, 70)
+     .setRange(0, 4)
+     .setSize(180, 9) 
+     .setValue(0.1)
+     ;
+     
+     
+     cp5.addSlider("Edge Random")
+     .plugTo(parent, "edgeRandCoef")
+     .setPosition(80, 80)
+     .setRange(1, 5)
+     .setSize(180, 9)
+     .setValue(2)
+     ;
+     
+     
+     cp5.addSlider("Edge Blink Duration")
+     .plugTo(parent, "edgeBlinkDuration")
+     .setPosition(80, 90)
+     .setRange(0, 4)
+     .setSize(180, 9)
+     .setValue(0.05)
+     ;
+     
+     cp5.addSlider("Overall transparency")
+     .plugTo(parent, "overallTransp")
+     .setPosition(80, 100)
+     .setRange(0, 255)
+     .setSize(180, 9)
+     .setValue(255)
+     ;
+     */
     cp5.addSlider("Edge color R")
       .plugTo(parent, "edgeColR")
       .setPosition(80, 120)
@@ -197,17 +197,17 @@ class ControlFrame extends PApplet {
       .setSize(20, 10)
       ;
 
-/*
+    /*
     cp5.addButton("newObject")
-      .setPosition(10, 120)
-      .setSize(60, 10)
-      ;
-
-    cp5.addButton("editMode")
-      .setPosition(10, 140)
-      .setSize(60, 10)
-      ;
-*/
+     .setPosition(10, 120)
+     .setSize(60, 10)
+     ;
+     
+     cp5.addButton("editMode")
+     .setPosition(10, 140)
+     .setSize(60, 10)
+     ;
+     */
     cp5.addSlider(extraPointsDist)
       .plugTo(parent, "extraPointsDistPx")
       .setPosition(80, 80)
@@ -283,9 +283,9 @@ class ControlFrame extends PApplet {
     cEditMode();
   }
 
-  
 
-    void customize(DropdownList ddl) {
+
+  void customize(DropdownList ddl) {
     // a convenience function to customize a DropdownList
     ddl.setBackgroundColor(color(190));
     ddl.setItemHeight(20);

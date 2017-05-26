@@ -1,5 +1,7 @@
 //////VARS
 
+int distToClose = 10;
+
 //rec
 boolean record = false; 
 
@@ -218,7 +220,7 @@ void extraPointsDist() {
       obj.w = w;
       obj.h = h;
       obj.offscreen = createGraphics(w, h, P3D);
-     // obj.surface = ks.createCornerPinSurface(w, h, 10);
+      // obj.surface = ks.createCornerPinSurface(w, h, 10);
 
       PImage newMask = createImage(w, h, ARGB);
       newMask.loadPixels();
@@ -232,12 +234,12 @@ void extraPointsDist() {
         // ctrPv.add(i, new PVector(ctr.getPoints()[i].x, ctr.getPoints()[i].y));
         println(ctr.getPoints()[i].x);
       }
-      
-      
+
+
       ctrPv = translateList(obj.extraPoints, new PVector (-obj.bounds[0].x, -obj.bounds[0].y));
       //ctrPv.remove(obj.cornerPoints.size() -1 );
 
-        PVector actP; 
+      PVector actP; 
       for (int iy = 0; iy < h; iy++) {
         for (int ix = 0; ix < w; ix++) {
           // newMask.pixels[iy*];
@@ -282,7 +284,7 @@ class RsObject {
   PVector menuPoint;
   RContour rContour;
   RPoint bounds[];   // from left up clockwise 
- // CornerPinSurface surface;
+  // CornerPinSurface surface;
   PGraphics offscreen;
   int w, h;
   PImage mask;
@@ -355,7 +357,7 @@ class RsObject {
   }
 
   void resetAlpha() {
-   // println("resetAlpha " + index);
+    // println("resetAlpha " + index);
     Ani.to(this, blinkPauseBetweenObjects, "alpha", 0, Ani.EXPO_IN);
     //  alpha = 0;
   }
@@ -373,7 +375,7 @@ class RsObject {
     for (int i = 0; i < extraPointsMoving.size(); i++) {
       if (edges.size()-1 > i)
         edges.get(i).stopRandAnim();
-        edges.clear();
+      edges.clear();
     }
   }
 
@@ -432,7 +434,7 @@ class RsObject {
     // mouse is on
     if (cornerPoints.size() > 2) {  //for line other method
       if (contains(new PVector(mouseX, mouseY), cornerPoints)) {
-       // println(index);
+        // println(index);
 
         if (mousePressed) {
           // surface.render(offscreen);
@@ -460,16 +462,14 @@ class RsObject {
 
       line(v.x, v.y, v1.x, v1.y);
     }
-    
-    if(this.index == objects.size() - 1 && cornerPoints.size() >= 1){
+
+    if (this.index == objects.size() - 1 && cornerPoints.size() >= 1) {
       line(cornerPoints.get(cornerPoints.size() - 1).x, cornerPoints.get(cornerPoints.size() - 1).y, mouseX, mouseY);
     }
-    
+
     if (selected) {
       //ellipse(menuPoint.x, menuPoint.y, 20, 20);
     }
-
-    
   }
 }
 

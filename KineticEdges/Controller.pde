@@ -46,14 +46,16 @@ void runTheCommand(SlltdCmd cmd) {
 void mousePressed() {
   //  println(mouseX +"  " + mouseY);
 
+  state = State.UPDATING_MODEL;
+
   if (mouseButton == LEFT) {
     if (actObj != null) {
 
       if (actObj.cornerPoints.size() > 2) {
         PVector firstPoint = actObj.cornerPoints.get(0);
         float d = dist(firstPoint.x, firstPoint.y, mouseX, mouseY);
-        println(d);
-        if (d < 20) {
+        //println(d);
+        if (d < distToClose) {
 
           actObj.addCornerPoint(firstPoint);
           actObj.closedShape = true;
@@ -68,6 +70,13 @@ void mousePressed() {
     cNewObject();
   } 
 
+  if (randAnim) {
+    for (RsObject obj : objects) {
+      obj.stopRandAnim();
+
+      obj.initRandAnim();
+    }
+  }
 
   state = State.EDITPOINTS;
 }
