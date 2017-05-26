@@ -43,6 +43,23 @@ class ControlFrame extends PApplet {
     size(w, h);
   }
 
+
+  void controlEvent(ControlEvent theEvent) {
+    state = State.UPDATING_MODEL;
+
+
+
+    if (theEvent.isFrom(cp5.getController(extraPointsDist))) {
+      println("this event was triggered by extraPointsDist");
+      for (RsObject obj : objects) {
+        obj.stopRandAnim();
+
+        obj.initRandAnim();
+      }
+    }
+    state = State.EDITPOINTS;
+  }
+
   public void setup() {
 
     cp5 = new ControlP5(this);
@@ -88,7 +105,7 @@ class ControlFrame extends PApplet {
       ;
 
     /*
-    cp5.addSlider("Blink Frame Pause")
+          cp5.addSlider("Blink Frame Pause")
      .plugTo(parent, "blinkFramePauseBetweenEdgeFade")
      .setPosition(80, 70)
      .setRange(0, 4)
@@ -198,7 +215,7 @@ class ControlFrame extends PApplet {
       ;
 
     /*
-    cp5.addButton("newObject")
+          cp5.addButton("newObject")
      .setPosition(10, 120)
      .setSize(60, 10)
      ;
@@ -225,7 +242,7 @@ class ControlFrame extends PApplet {
     //  customize(objectsAnimationListDL);
 
     /*
-    cp5.addRadioButton("blinkMode1")
+          cp5.addRadioButton("blinkMode1")
      .setPosition(10, 50)
      .setSize(20, 9)
      .addItem("seqAnimuence", 0)
