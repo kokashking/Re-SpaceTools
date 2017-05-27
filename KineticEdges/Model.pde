@@ -156,7 +156,7 @@ void initModel() {
 void updateModel() {
   extraPointsDist();
 
-  updateGUI();
+  //updateGUI();
 }
 
 void extraPointsDist() {
@@ -197,7 +197,7 @@ void extraPointsDist() {
       }
     }
 
-    println(obj.cornerPoints.size() );
+  //  println(obj.cornerPoints.size() );
     if (obj.cornerPoints.size() > 1) {
 
 
@@ -397,8 +397,6 @@ class RsObject {
 
   public void update() {
     for (int i = 0; i < extraPointsMoving.size(); i++) {
-
-
 
       PVector v = extraPointsMoving.get(i);
 
