@@ -1,5 +1,5 @@
 # Re-Space Tools
-## A collection of sound reactive visual tools
+## Sound reactive visual tools
 
 
 
